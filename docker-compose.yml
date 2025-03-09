@@ -16,7 +16,7 @@ services:
     image: odoo:latest
     user: root
     depends_on:
-      - db2
+      - db
     ports:
       - "11018:8069"
       - "21018:8072" # live chat
