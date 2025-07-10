@@ -8,7 +8,7 @@ services:
       - POSTGRES_PASSWORD=odoo18@2024
       - POSTGRES_DB=postgres
     restart: always             # run as a service
-    shm_size: '16gb'
+    shm_size: '64gb'
     volumes:
         - ./postgresql:/var/lib/postgresql/data
 
